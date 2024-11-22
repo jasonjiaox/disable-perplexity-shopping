@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "Disable Perplexity Shopping",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Automatically removes shopping-related content from Perplexity AI search results.",
+    "description": "Description of the extension."
+  }
+}
