@@ -31,14 +31,18 @@ if (document.readyState === "loading") {
 }
 
 function initializeExtension() {
-  // Start observing DOM changes
-  observer.observe(document.body, {
-    childList: true,
-    subtree: true
-  })
+  try {
+    // Start observing DOM changes
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true
+    })
 
-  // Initial cleanup
-  removeShoppingElements()
+    // Initial cleanup
+    removeShoppingElements()
+  } catch (error) {
+    console.error("Failed to initialize extension:", error)
+  }
 }
 
 export {} 

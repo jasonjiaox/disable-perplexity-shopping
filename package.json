@@ -31,9 +31,6 @@
     "default_locale": "en",
     "host_permissions": [
       "https://www.perplexity.ai/*"
-    ],
-    "permissions": [
-      "scripting"
     ]
   }
 }
