@@ -28,9 +28,6 @@
     "manifest_version": 3,
     "name": "__MSG_extensionName__",
     "description": "__MSG_extensionDescription__",
-    "default_locale": "en",
-    "host_permissions": [
-      "https://www.perplexity.ai/*"
-    ]
+    "default_locale": "en"
   }
 }

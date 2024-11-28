@@ -1,3 +1,10 @@
+// This content script will only run on Perplexity AI
+import type { PlasmoCSConfig } from "plasmo"
+
+export const config: PlasmoCSConfig = {
+  matches: ["https://www.perplexity.ai/*"]
+}
+
 function removeShoppingElements() {
   // Remove shopping section
   const shoppingSection = document.querySelector('div[class*="isolate flex flex-col gap-md"]')
