@@ -10,7 +10,7 @@ A Chrome extension that automatically removes shopping-related content from Perp
 
 ## Installation
 
-1. Install from Chrome Web Store (link coming soon)
+1. Install from Chrome Web Store: [Disable Perplexity Shopping](https://chromewebstore.google.com/detail/disable-perplexity-shoppi/cnafhmliippoaakphfonfimllahbgbmk)
 2. The extension will automatically start working when you visit Perplexity AI
 
 ## Permissions
